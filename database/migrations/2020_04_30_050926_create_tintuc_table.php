@@ -1,9 +1,3 @@
-<?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
 class CreateTintucTable extends Migration
 {
     /**
@@ -17,7 +11,7 @@ class CreateTintucTable extends Migration
             $table->increments('id_tintuc');
             $table->string('tieu_de');
             $table->text('mota');
-            $table->integer('trang_thai');
+            $table->integer('img');
             $table->timestamps();
         });
     }
