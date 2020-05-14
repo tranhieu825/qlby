@@ -120,6 +120,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Quản lí admin</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{URL::to('/quan-li-khachhang')}}">
+                        <i class="fa fa-user"></i>
+                        <span>Quản lí khách hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{URL::to('/quan-li-tintuc')}}">
+                        <i class="fa fa-book"></i>
+                        <span>Quản lí tin tức </span>
+                    </a>
+                </li>
             </ul>            
         </div>
         <!-- sidebar menu end-->
