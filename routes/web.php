@@ -80,3 +80,19 @@ Route::get('/xoa-phieu-danh-gia/{id_phieu}','phieudanhgia@xoa_phieu');
 //xem kết quả
 Route::post('/tong-diem','phieudanhgia@tong_diem');
 Route::get('/xem-ket-qua','phieudanhgia@xem_ket_qua');
+
+// Trần Hiếu - Quản lí khách hàng
+Route::get('/quan-li-khachhang','danhmuc@khachhang');
+Route::get('/xoa-khachhang/{id_khachhang}','danhmuc@xoa_khachhang');
+Route::post('/them-khachhang','danhmuc@them_khachhang');
+Route::get('/sua-khachhang/{sua_id_khachhang}','danhmuc@sua_khachhang');
+Route::post('/update-khachhang/{update_id_khachhang}','danhmuc@update_khachhang');
+// Trần Hiếu - Quản lí tin tức
+ Route::get('/quan-li-tintuc','danhmuc@tintuc');
+ Route::get('/them-tintuc','danhmuc@them_tintuc');
+ Route::post('/insert-tintuc','danhmuc@insert_tintuc');
+ Route::get('/sua-tintuc/{sua_id_tintuc}','danhmuc@sua_tintuc');
+ Route::post('/update-tintuc/{update_id_tintuc}','danhmuc@update_tintuc');
+ Route::get('/xoa-tintuc/{id_tintuc}','danhmuc@xoa_tintuc');
+ Route::get('/xem-tintuc','danhmuc@xem_tintuc');
+ Route::get('/xem-chi-tiet-tintuc/{id_tintuc}','danhmuc@xem_chi_tiet_tintuc');
