@@ -184,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{URL::to('/xem-tintuc')}}">
                         <i class="fa fa-bullhorn"></i>
                         <span>Tin tức</span>
                     </a>
